@@ -3,7 +3,6 @@ import './index.css';
 import Movie from './components/Movie';
 
 const FEATURED_API = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=07c343042ea6bee2fb894ac3c42adb5c&page=1";
-
 const SEARCH_API = "https://api.themoviedb.org/3/search/movie?api_key=07c343042ea6bee2fb894ac3c42adb5c&query";
 
 function App() {

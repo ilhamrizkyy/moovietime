@@ -24,6 +24,8 @@ code {
 .movie{
   margin: 1rem;
   width: 300px;
+  overflow: hidden;
+  position: relative;
 }
 
 .movie img{
@@ -42,4 +44,59 @@ code {
   padding: 10px;
   margin-left: 250px;
   margin-top: 0;
+}
+.movie-hover{
+  text-align: center;
+  width: 100%;
+  max-height: 450px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.movie:hover .movie-hover{
+  visibility: visible;
+}
+
+.rate{
+  max-width: 70%;
+  padding: 15%;
+}
+
+.rate > img, .rate > h2 {
+  display: inline-block;
+}
+
+.rate h2{
+  margin-left: 10px;
+  margin-top: 14px;
+  position: absolute;
+}
+
+.genre-hover{
+  margin-bottom: 10%;
+}
+
+.button-view{
+  background-color: #FF0000;
+  width: 157px;
+  height: 62px;
+  color: white;
+  border-radius: 32px;
+  border: none;
+  margin-bottom: 10%;
+}
+
+.button-add{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 157px;
+  height: 62px;
+  color: white;
+  border-radius: 32px;
+  border: solid 3px white;
+  margin-bottom: 30%;
 }
