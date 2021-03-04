@@ -8,7 +8,7 @@ const Movie = ({ title, poster_path, release_date, vote_average }) => (
         <img src={IMAGE_API + poster_path} alt={title} />
         <div className="movie-info">
             <h3>{title}</h3>
-            <span>{release_date}</span>
+            <span>{release_date.substring(0, 4)}</span>
         </div>
 
     </div>
