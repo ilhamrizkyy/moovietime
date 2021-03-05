@@ -6,9 +6,26 @@ body {
   background-color: #1E232B;
   color: #E5E5E5;
   margin: 0;
+  display: flex;
+  flex-direction: column;
   font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.13);
+  color: #E5E5E5;
+  width: 571px;
+  padding: 1rem;
+}
+
+.search{
+  background-color: transparent;
+  font-size: 1.2rem;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  color: #E5E5E5;
 }
 
 .movie-container{
@@ -122,4 +139,10 @@ code {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 30px;
+}
+
+.button-add-changed{
+  background-color: #A9FFC6;
+  color: #155129;
+  content: 'ADDED' !important;
 }
