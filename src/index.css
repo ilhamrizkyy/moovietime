@@ -100,3 +100,26 @@ code {
   border: solid 3px white;
   margin-bottom: 30%;
 }
+
+.discover{
+  margin-left: 1rem;
+}
+.discover h2, .discover span, .discover span span{
+  display: inline-block;
+}
+
+.discover span{
+  text-align: right;
+  margin-left: 54%;
+}
+
+.total-movie{
+  width: 320px;
+}
+
+.discover span span{
+  margin-left: 5%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 30px;
+}

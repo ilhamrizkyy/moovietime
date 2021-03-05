@@ -20,10 +20,16 @@ function App() {
 
 
   return (
-    <div className="movie-container">
-      {movies.length > 0 && movies.map(movie => (
-        <Movie key={movie.id} {...movie}/>
-      ))}
+    <div className="content">
+      <div className="discover">
+        <h2>Discover Movies</h2>
+        <span className="total-movie">My Movies <span className="my-movie">0 movies</span></span>
+      </div>
+      <div className="movie-container">
+        {movies.length > 0 && movies.map(movie => (
+          <Movie key={movie.id} {...movie} />
+        ))}
+      </div>
     </div>
   );
 }
